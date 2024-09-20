@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+    wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1
+    ,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./js/script.js" type="module" defer></script>
+</head>
+<body>
+  <div id="app">
+    
+    <header class="favorites">
+        <img src="./assets/Gitfav.svg" alt="Gitfav" class="gitfav">
+        <label for="search">Digite o Github username que quer favoritar</label>
+        <input type="text"  id="search" placeholder="Digite o Github username que quer favoritar">
+        <button>
+        <div>
+          <img src="./assets/Vector.svg" alt="estrela de favoritos">
+          <span>Favoritar</span>
+        </div>       
+        </button>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Usuário</th>
+          <th>Repositories</th>
+          <th>Followers</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="modal">
+      Usuário removido com sucesso!
+    </div>
+    
+  </div>
+
+</body>
+</html>
