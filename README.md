@@ -4,6 +4,8 @@
 armazenar e visualizar seus usuários favoritos do GitHub. Utilizando a API do GitHub, é possível buscar informações como o número de repositórios e seguidores de cada usuário,
 além de permitir a remoção e armazenamento local desses dados.</p>
 
+![Captura de Tela (36)](https://github.com/user-attachments/assets/96bb9787-0657-488e-af3b-4deca9dcad31)
+
 <h2>O que será abordado nesse projeto:</h2>
 <ul>
   <li>Responsividade e uso de variáveis em CSS ✅</li>
